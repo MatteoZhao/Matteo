@@ -20,11 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cambiarMensaje(View v){
-        texto.setText(String.format("Graphic design is my passion"));
+        texto.setText(String.format("Hola món!"));
         texto.setTextSize(30);
-        texto.setTextColor(Color.parseColor("#ff00ff"));
-        texto.setBackgroundColor(Color.parseColor("#000000"));
-
-
     }
 }
